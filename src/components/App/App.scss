@@ -1,27 +1,26 @@
-.buttons{
-   width: 350px;
-   display: flex;
-   justify-content: space-between;
-   margin: 0 auto;
+.buttons {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 
-   .button{
-      &:hover{
-
-         background-color: black;
-         color: yellow !important;
-         border: 2px solid black !important;
-      }
-   }
+  .button {
+    &:hover {
+      background-color: black;
+      color: yellow !important;
+      border: 2px solid black !important;
+    }
+  }
 }
-.App{
-   position: absolute;
-   left: 50%;
-   margin-left: -400px;
+.App {
+  position: absolute;
+  left: 50%;
+  margin-left: -400px;
 }
-.wrap{
-   position: relative;
-   top: 200px;
-   width: 100px;
-   height: 100px;
-   margin: auto;
+.wrap {
+  position: relative;
+  top: 200px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
 }
