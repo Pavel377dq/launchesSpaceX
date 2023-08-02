@@ -25,8 +25,8 @@ function List() {
       <td>Описание</td>
       </tr>
       {launches.map((launch)=>{
-         console.log(launch,'in MAP')
 
+         
          return <Row {...launch}  />
       })}
    </table>
