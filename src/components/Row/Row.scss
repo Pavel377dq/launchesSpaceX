@@ -1,0 +1,14 @@
+.img{
+   height: 100px;
+   width: auto;
+}
+
+.row{
+height: 200px;
+   &:hover{
+      background-color: black;
+      color: yellow;
+      cursor: pointer;
+   }
+}
+
